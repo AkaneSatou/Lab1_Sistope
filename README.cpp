@@ -18,7 +18,7 @@ vector<vector<string> > lecturaA(string& fichero){
 	ifstream ficheroA; 	//vector<string> vprincipal;
 	string word;  //linea almacenada
 
-	ficheroA.open(fichero.c_st; 
+	ficheroA.open(fichero.c_str()); 
 	if(ficheroA.fail()){ //si la lectura es erronea
 		cout << "Alguno de los archivos no se abrió correctamente." <<  endl; 
 		exit(0);
